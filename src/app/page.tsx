@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./base.module.scss";
 import { Button, Typography } from "antd";
-import { Container } from "@/components/Container/Сontainer";
+import { Container } from "@/components/Container/Container";
 
 export default function Home() {
   const { Title } = Typography;
@@ -13,7 +13,7 @@ export default function Home() {
         </div>
 
         <div className={styles.img}>
-          <Image src="/me.png" width={320} height={320} alt="me" />
+          <Image src="/me.png" width={160} height={160} alt="me" />
         </div>
 
         <div className={styles.tittle}>
