@@ -6,12 +6,12 @@ export default function Home() {
   const { Title } = Typography;
   return (
     <main className={styles.main}>
-      <div className={styles.img}>
+      <div className={styles.tittle}>
         <h1>Telegram miniApp</h1>
       </div>
 
       <div className={styles.img}>
-        <Image src="/cat.png" width={320} height={320} alt="me" />
+        <Image src="/me.jpeg" width={320} height={320} alt="me" />
       </div>
 
       <div className={styles.button}>
