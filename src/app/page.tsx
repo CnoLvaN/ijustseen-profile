@@ -11,13 +11,13 @@ export default function Home() {
       </div>
 
       <div className={styles.img}>
-        <Image src="/me.jpeg" width={320} height={320} alt="me" />
+        <Image src="/me.png" width={320} height={320} alt="me" />
       </div>
 
       <div className={styles.button}>
         <a href="/projects">
           <Button type="primary" size="large" shape="round">
-            Primary Button
+            See the Projects
           </Button>
         </a>
       </div>
