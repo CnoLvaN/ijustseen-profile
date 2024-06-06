@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./base.module.scss";
 import { Button, Typography } from "antd";
-import { Container } from "@/components/Container/container";
+import { Container } from "@/components/Container/Сontainer";
 
 export default function Home() {
   const { Title } = Typography;
