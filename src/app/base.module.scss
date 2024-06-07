@@ -37,3 +37,21 @@
   object-fit: cover;
   border-radius: 50%;
 }
+
+.list {
+  list-style: none;
+  padding: 0;
+
+  overflow: scroll;
+  gap: 20px;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.list li {
+  scroll-snap-align: center;
+  border-radius: 10px;
+}
