@@ -14,9 +14,10 @@ export default function Home() {
         <li>
           <Card
             style={{ width: 320 }}
-            cover={<img alt="example" src="/news-images/news1.jpg" />}
+            cover={<img alt="example" src="/news-images/news2.jpg" />}
           >
             <h1>Last Interview</h1>
+            <p>Interview on TONight</p>
           </Card>
         </li>
         <li>
@@ -25,6 +26,16 @@ export default function Home() {
             cover={<img alt="example" src="/news-images/news2.jpg" />}
           >
             <h1>Last Interview</h1>
+            <p>Interview on TONight</p>
+          </Card>
+        </li>
+        <li>
+          <Card
+            style={{ width: 320 }}
+            cover={<img alt="example" src="/news-images/news2.jpg" />}
+          >
+            <h1>Last Interview</h1>
+            <p>Interview on TONight</p>
           </Card>
         </li>
       </ul>
