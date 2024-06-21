@@ -10,7 +10,7 @@ export default function Home() {
       <Container>
         <div className={styles.tittle}>
           <h1>
-            <span className={styles.colored}>ijustseen's</span>
+            <span className={styles.colored}>{"ijustseen's"}</span>
             <br />p o r t f o l i o
           </h1>
         </div>
