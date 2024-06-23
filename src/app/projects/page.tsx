@@ -11,8 +11,15 @@ export default function Home() {
       <ul className={styles.list}>
         <li>
           <Card
+            className="Card"
             style={{ width: 320 }}
-            cover={<img alt="example" src="/news-images/news2.jpg" />}
+            cover={
+              <img
+                height={220}
+                alt="example"
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPQ-ZhFFTG_ww40p7PlUEZesS5cwYWp_e26g&s"
+              />
+            }
           >
             <h1>Journey to Spain</h1>
             <p>I am in Spain currently, see u later</p>
@@ -21,16 +28,24 @@ export default function Home() {
         <li>
           <Card
             style={{ width: 320 }}
-            cover={<img alt="example" src="/news-images/news2.jpg" />}
+            cover={
+              <img
+                height={220}
+                alt="example"
+                src="https://accent.su/wp-content/uploads/2022/05/shkolnyj-dnevnik-mem-600x375.jpg"
+              />
+            }
           >
-            <h1>Last Interview</h1>
-            <p>Interview on TONight</p>
+            <h1>School Year End</h1>
+            <p>Илья уже подходит</p>
           </Card>
         </li>
         <li>
           <Card
             style={{ width: 320 }}
-            cover={<img alt="example" src="/news-images/news2.jpg" />}
+            cover={
+              <img height={220} alt="example" src="/news-images/news2.jpg" />
+            }
           >
             <h1>Last Interview</h1>
             <p>Interview on TONight</p>
