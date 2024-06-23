@@ -1,11 +1,9 @@
 import { Button, Card } from "antd";
 import styles from "../base.module.scss";
-import { Container } from "@/components/Container/Container";
-const { Meta } = Card;
 
 export default function Home() {
   return (
-    <Container>
+    <main>
       <div className={styles.tittle}>
         <h1>Last News</h1>
       </div>
@@ -47,6 +45,6 @@ export default function Home() {
           </Button>
         </a>
       </div>
-    </Container>
+    </main>
   );
 }

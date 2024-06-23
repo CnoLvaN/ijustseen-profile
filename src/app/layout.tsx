@@ -1,4 +1,6 @@
+import { Footer } from "@/components/Footer/Footer";
 import styles from "./base.module.scss";
+import { Container } from "@/components/Container/Container";
 
 export const metadata = {
   title: "ijustseen",
@@ -12,7 +14,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={styles.body}>{children}</body>
+      <body className={styles.body}>
+        <Container>
+          {children}
+          <Footer></Footer>
+        </Container>
+      </body>
     </html>
   );
 }

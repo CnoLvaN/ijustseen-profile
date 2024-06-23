@@ -1,13 +1,12 @@
 import Image from "next/image";
 import styles from "../base.module.scss";
 import { Button, Typography } from "antd";
-import { Container } from "@/components/Container/Container";
 
 export default function Home() {
   const { Title } = Typography;
   return (
-    <main className={styles.main}>
-      <Container>
+    <main>
+      <>
         <div className={styles.tittle}>
           <h1>About Me</h1>
         </div>
@@ -22,13 +21,13 @@ export default function Home() {
         </div>
 
         <div className={styles.button}>
-          <a href="/projects">
+          <a href="/">
             <Button type="primary" size="large" shape="round">
               Main Page
             </Button>
           </a>
         </div>
-      </Container>
+      </>
     </main>
   );
 }
