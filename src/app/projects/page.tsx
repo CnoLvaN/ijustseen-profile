@@ -16,8 +16,8 @@ export default function Home() {
             style={{ width: 320 }}
             cover={<img alt="example" src="/news-images/news2.jpg" />}
           >
-            <h1>Last Interview</h1>
-            <p>Interview on TONight</p>
+            <h1>Journey to Spain</h1>
+            <p>I am in Spain currently, see u later</p>
           </Card>
         </li>
         <li>
