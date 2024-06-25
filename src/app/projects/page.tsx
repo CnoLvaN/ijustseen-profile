@@ -1,6 +1,19 @@
 import { Button, Card } from "antd";
 import styles from "../base.module.scss";
 
+import { createClient } from "@supabase/supabase-js";
+
+const supabaseUrl = "https://jfavontasktzvucgnijl.supabase.co";
+const supabase = createClient(
+  supabaseUrl,
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpmYXZvbnRhc2t0enZ1Y2duaWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3MTkxNzQ5NzEsImV4cCI6MjAzNDc1MDk3MX0.dAnbxk8A5hwKM8SCQ-gfY9YrrR9Ux40JzLqma0H7oSI"
+);
+
+const data = supabase.from("dogs").select(`
+      id, breed,
+      owner (id, name)
+  `);
+
 export default function Home() {
   return (
     <main>
