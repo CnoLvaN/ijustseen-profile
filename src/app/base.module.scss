@@ -75,20 +75,26 @@
   background-color: white;
   border-radius: 20px;
   padding: 10px 16px;
+  margin: 32px 0 32px auto;
+  width: 280px;
+}
+
+.white:not(:nth-of-type(2n)) {
+  margin: 32px auto 32px 0;
 }
 
 .pastWhite {
   position: absolute;
   background-color: white;
-  border-radius: 100% 0% 92% 8% / 79% 0% 100% 21%;
-  width: 20px;
-  height: 40px;
+
+  border-radius: 0% 100% 8% 92% / 0% 0% 100% 100%;
+  width: 16px;
+  height: 32px;
   right: 0;
-  bottom: -20px;
+  bottom: -16px;
 }
 
-.aboutParagraph .white:nth-of-type(2n) .pastWhite {
+.white:not(:nth-of-type(2n)) .pastWhite {
   left: 0;
-  bottom: -20px;
-  border-radius: 0% 100% 8% 92% / 0% 79% 21% 100%;
+  border-radius: 0% 100% 92% 8% / 0% 26% 74% 100%;
 }

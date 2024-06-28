@@ -20,14 +20,21 @@ export default function Home() {
           <h2>Andrew Eroshenkov</h2>
         </div>
 
-        <div className={cn(styles.aboutParagraph)}>
+        <div className={cn(styles.aboutParagraphs)}>
+          <p className={styles.white}>
+            Hi! Can you please tell me something about you?
+            <span className={styles.pastWhite}></span>
+          </p>
           <p className={styles.white}>
             {
               "Hello there! I am 17 years old and as you notice - I am Andrew. I'm studying in Jovan Jovanovic Zmaj Gymnasium on 2nd year. "
             }
             <span className={styles.pastWhite}></span>
           </p>
-          <h3 className={styles.tittle}>Skills</h3>
+          <p className={styles.white}>
+            What are your skills?
+            <span className={styles.pastWhite}></span>
+          </p>
           <p className={styles.white}>
             React, Next, Vue, Python, C#, Blueprints, etc.
             <span className={styles.pastWhite}></span>
