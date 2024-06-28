@@ -23,7 +23,7 @@ export default function Home() {
         <div className={cn(styles.aboutParagraph)}>
           <p className={styles.white}>
             {
-              "Hello there! I am 17 yo and as you notice - I am Andrew. I'm studying in Jovan Jovanovic Zmaj Gymnasium on 2nd year. "
+              "Hello there! I am 17 years old and as you notice - I am Andrew. I'm studying in Jovan Jovanovic Zmaj Gymnasium on 2nd year. "
             }
             <span className={styles.pastWhite}></span>
           </p>
