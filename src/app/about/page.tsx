@@ -16,7 +16,7 @@ export default function Home() {
           <Image src="/me.png" width={160} height={160} alt="me" />
         </div>
 
-        <div className={styles.tittle}>
+        <div className={styles.tittleA}>
           <h2>Andrew Eroshenkov</h2>
         </div>
 
@@ -43,9 +43,7 @@ export default function Home() {
 
         <div className={styles.button}>
           <a href="/">
-            <Button type="primary" size="large" shape="round">
-              Main Page
-            </Button>
+            <button className={styles.btnHuge}>Main Page</button>
           </a>
         </div>
       </>
