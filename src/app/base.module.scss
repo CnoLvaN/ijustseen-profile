@@ -23,9 +23,25 @@
 }
 
 .button {
-  width: fit-content;
+  width: 100%;
   margin: 0 auto;
   margin-top: 16px;
+}
+
+.btnHuge {
+  width: 100%;
+  padding: 16px 16px;
+  background-color: #1677ff;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  font-size: large;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btnHuge:hover {
+  background-color: #67a6ff;
 }
 
 .img {

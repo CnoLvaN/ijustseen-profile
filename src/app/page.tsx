@@ -21,16 +21,12 @@ export default function Home() {
 
       <div className={styles.button}>
         <a href="/projects">
-          <Button type="primary" size="large" shape="round">
-            Last News
-          </Button>
+          <button className={styles.btnHuge}>Last News</button>
         </a>
       </div>
       <div className={styles.button}>
         <a href="/about">
-          <Button type="primary" size="large" shape="round">
-            About Me
-          </Button>
+          <button className={styles.btnHuge}>About Me</button>
         </a>
       </div>
     </main>
