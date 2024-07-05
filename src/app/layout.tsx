@@ -4,7 +4,7 @@ import { Container } from "@/components/Container/Container";
 
 export const metadata = {
   title: "ijustseen",
-  description: "created ",
+  description: "created by ijusseen",
 };
 
 export default function RootLayout({

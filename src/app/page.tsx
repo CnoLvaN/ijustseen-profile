@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div className={styles.buttons}>
         <div className={styles.button}>
-          <a href="/projects">
+          <a href="/news">
             <button className={styles.btnHuge}>Last News</button>
           </a>
         </div>
@@ -30,12 +30,12 @@ export default function Home() {
           </a>
         </div>
         <div className={styles.button}>
-          <a href="/about">
+          <a href="/news">
             <button className={styles.btnHuge}>My Projects</button>
           </a>
         </div>
         <div className={styles.button}>
-          <a href="/about">
+          <a href="/contacts">
             <button className={styles.btnHuge}>Contact Me</button>
           </a>
         </div>

@@ -1,4 +1,4 @@
-import { Button, Card } from "antd";
+import { Card } from "antd";
 import styles from "../base.module.scss";
 
 import { createClient } from "@supabase/supabase-js";
@@ -68,9 +68,7 @@ export default function Home() {
 
       <div className={styles.button}>
         <a href="/">
-          <Button type="primary" size="large" shape="round">
-            Back
-          </Button>
+          <button className={styles.btnHuge}>Main Page</button>
         </a>
       </div>
     </main>
