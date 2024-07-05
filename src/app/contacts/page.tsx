@@ -1,6 +1,5 @@
-import Image from "next/image";
 import styles from "../base.module.scss";
-import { Button, Typography } from "antd";
+import { Typography } from "antd";
 import cn from "classnames";
 
 export default function Home() {
@@ -9,10 +8,6 @@ export default function Home() {
     <main>
       <div className={cn(styles.tittle)}>
         <h1>My contacts</h1>
-      </div>
-
-      <div className={styles.img}>
-        <Image src="/me.png" width={160} height={160} alt="me" />
       </div>
 
       <div className={cn(styles.contacts)}>
